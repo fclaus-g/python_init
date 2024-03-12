@@ -31,3 +31,13 @@ print(lista) #['esto', 'es', 'una', 'lista', 'insertado', 'esto', 'es', 'añadid
 elemento = lista.pop(4)
 print(lista)
 print(elemento)
+#6:index(elemento)->devuelve el indice de la primera aparicion de un elemento en la lista
+print(str(lista.index("lista"))) #3
+#7:count(elemento)->devuelve el num de veces que un elemento aparece en la lista
+print(str(lista.count("es"))) #2
+#8:sort()->ordena en ascendente los elemento de la lista
+lista.sort()
+print(lista) #['añadido', 'es', 'es', 'esto', 'esto', 'lista', 'una']
+#9->reverse()->invierte el orden de los elementos de la lista
+lista.reverse()
+print(lista) #['una', 'lista', 'esto', 'esto', 'es', 'es', 'añadido']
